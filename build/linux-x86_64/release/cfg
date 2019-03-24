@@ -1,0 +1,1 @@
+cmake -DCMAKE_BUILD_TYPE=Release -DTARGET_BIT=64  -DPLAT=LINUX-X86_64 ../../../ 
