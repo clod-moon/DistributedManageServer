@@ -10,7 +10,7 @@ map<string, string> mapConfig;
 int main()
 {
 
-	if (!ReadConfig("./config.ini", mapConfig))
+	if (!ReadConfig("../config/config.ini", mapConfig))
 	{
 		WriteLogTOScreen(ERROR_LEVEL,"¶ÁÅäÖÃÎÄ¼ş´íÎó");
 	}

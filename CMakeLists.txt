@@ -118,6 +118,7 @@ add_subdirectory(code/main)
 add_subdirectory(code/commonModule)
 add_subdirectory(code/communicationModule)
 add_subdirectory(code/databaseModule)
+add_subdirectory(code/simpleSockets)
 
 
 

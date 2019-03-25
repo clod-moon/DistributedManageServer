@@ -24,10 +24,10 @@ message(STATUS "Current Dir: " ${CMAKE_CURRENT_SOURCE_DIR})
 message(STATUS "DIR_INCLUDE Dir: " ${DIR_INCLUDE})
 #平台无关库
 SET(COMMON_LIBS 
-	debug	commonModule
-	#debug   sqlitepp
+	debug	commonModuled
+	debug   simpleSocketsd
 	optimized	commonModule
-	#optimized 	sqlitepp
+	optimized 	simpleSockets
 	#commonModule
 	)
 	

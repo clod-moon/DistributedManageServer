@@ -32,14 +32,15 @@ IF(WIN32)
 		.
 		${DIR_INCLUDE}
 		${DIR_INCLUDE}/simpleSockets
-		${DIR_3RD_PARTY}
+		${DIR_3RD_PARTY}/
 		)
 ELSE()
 	include_directories(
 		.
+		/usr/include/libxml2
 		${DIR_INCLUDE}
 		${DIR_INCLUDE}/commonModule
-		${DIR_3RD_PARTY}
+		${DIR_3RD_PARTY}/
 		)
 ENDIF()
 

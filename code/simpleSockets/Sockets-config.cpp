@@ -454,7 +454,7 @@ int main(int argc,char *argv[])
 			show_configuration();
 		return 0;
 	}
-	printf(" -D_VERSION='\"%s\"'", _VERSION);
+	//printf(" -D_VERSION='\"%s\"'", _VERSION);
 
 #ifdef LINUX
 	printf(" -DLINUX");

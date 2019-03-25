@@ -1,4 +1,5 @@
-#include "commonModule\CommonTimer.h"
+#include "CommonTimer.h"
+#include <string.h>
 #include <stdlib.h>
 
 

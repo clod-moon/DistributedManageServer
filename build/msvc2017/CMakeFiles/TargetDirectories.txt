@@ -1,0 +1,7 @@
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/CMakeFiles/ALL_BUILD.dir
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/CMakeFiles/ZERO_CHECK.dir
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/code/main/CMakeFiles/OrderServer.dir
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/code/commonModule/CMakeFiles/commonModule.dir
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/code/communicationModule/CMakeFiles/communicationModule.dir
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/code/databaseModule/CMakeFiles/databaseModule.dir
+C:/Users/chun/Desktop/OrderSystem/build/msvc2017/code/simpleSockets/CMakeFiles/simpleSockets.dir

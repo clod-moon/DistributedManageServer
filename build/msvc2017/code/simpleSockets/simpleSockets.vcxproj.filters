@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Ajp13Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\AjpBaseSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\EventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\EventTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\FileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HTTPSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpBaseSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpClientSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpDebugSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpGetSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpPostSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpPutSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpTransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpdCookies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpdForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpdSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IEventOwner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Ipv4Address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Ipv6Address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\MemFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Parse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ResolvServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ResolvSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SSLInitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SctpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Semaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SmtpdSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketHandlerEp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketHandlerThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Sockets-config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StdoutLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StreamSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StreamWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\TcpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\UdpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\XmlDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\XmlException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\XmlNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\socket_include.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\bind_address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\chunked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\copy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\crlf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\detach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\echoserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\http_post.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\httpd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\httpd_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\httpget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\https.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\listener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\resolve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\resume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\retry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\scanr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\semtest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\sloppy_http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\sockets_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\stressclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\threadstress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\tests\x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Ajp13Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\AjpBaseSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\EventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\EventTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\FileStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HTTPSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpBaseSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpClientSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpDebugSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpGetSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpPostSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpPutSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpTransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpdCookies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpdForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\HttpdSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IEventOwner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IFileUpload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IHttpServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ISocketHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\IStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Ipv4Address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Ipv6Address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ListenSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\MemFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ResolvServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ResolvSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SSLInitializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SctpSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SmtpdSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketAddress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketHandlerEp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketHandlerThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\SocketThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StdLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StdoutLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StreamSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\StreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\TcpSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\UdpSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\XmlDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\XmlException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\XmlNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\ajp13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\socket_include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\sockets-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chun\Desktop\OrderSystem\code\simpleSockets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A81EB699-756F-31D3-8F6A-E5BC0F380B1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{920984F0-B891-3981-86FA-6457A2AD7192}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
