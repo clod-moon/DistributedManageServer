@@ -113,12 +113,13 @@ if(WIN32)
 else()
 endif()
 
+add_subdirectory(code/commonModule)
+add_subdirectory(code/simpleSockets)
 add_subdirectory(code/main)
 #add_subdirectory(code/sqlitepp)
-add_subdirectory(code/commonModule)
-add_subdirectory(code/communicationModule)
-add_subdirectory(code/databaseModule)
-add_subdirectory(code/simpleSockets)
+#add_subdirectory(code/communicationModule)
+#add_subdirectory(code/databaseModule)
+
 
 
 
