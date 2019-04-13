@@ -17,17 +17,20 @@ include_directories(
 	.
 	${DIR_INCLUDE}
 	${DIR_INCLUDE}/commonModule
+	${DIR_3RD_PARTY}/muduo/include
 
 	)
 
+FIND_LIBRARY(RUNTIME_LIB rt /usr/lib  /usr/local/lib NO_DEFAULT_PATH)
+	
 message(STATUS "Current Dir: " ${CMAKE_CURRENT_SOURCE_DIR})
 message(STATUS "DIR_INCLUDE Dir: " ${DIR_INCLUDE})
 #平台无关库
 SET(COMMON_LIBS 
 	debug	commonModuled
-	debug   simpleSocketsd
+	
 	optimized	commonModule
-	optimized 	simpleSockets
+	
 	#commonModule
 	)
 	
@@ -38,7 +41,8 @@ IF(WIN32)
 ELSE()
 	LIST(APPEND COMMON_LIBS 
 						#debug		curl
-
+				muduo_base
+				muduo_net			
 						#optimized	curl
 				)	
 ENDIF()
@@ -54,7 +58,7 @@ IF(WIN32)
 		set(PLATFORM_LIBS commonModule)
 	endif()		
 ELSEIF(UNIX)
-	#SET(PLATFORM_LIBS pthread ssl crypto json)
+	SET(PLATFORM_LIBS pthread)
 ENDIF()
 
 #编译

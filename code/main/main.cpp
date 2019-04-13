@@ -1,18 +1,39 @@
-#include <iostream>
-#include "Log.h"
-#include "GetConfig.h"
-//#include "../include/commonModule/GetConfig.h"
-//#include "../include/commonModule/Log.h"
-using namespace std;
+#include "muduo/base/Logging.h"
+#include "muduo/base/Timestamp.h"
+#include "muduo/net/TcpServer.h"
+#include "muduo/net/EventLoop.h"
+#include "muduo/net/TcpConnection.h"
 
-map<string, string> mapConfig;
+using namespace muduo;
+using namespace muduo::net;
 
-int main()
+void onConnection(const TcpConnectionPtr &conn)
 {
+    LOG_INFO << "EchoServer - " << conn->peerAddress().toIpPort() << " -> "
+             << conn->localAddress().toIpPort() << " is "
+             << (conn->connected() ? "UP" : "DOWN");
+}
 
-	if (!ReadConfig("../config/config.ini", mapConfig))
-	{
-		WriteLogTOScreen(ERROR_LEVEL,"¶ÁÅäÖÃÎÄ¼þ´íÎó");
-	}
-	return 0;
+void onMessage(const TcpConnectionPtr &conn,
+               Buffer *buf,
+               Timestamp time)
+{
+    muduo::string msg(buf->retrieveAllAsString());
+    LOG_INFO << conn->name() << " echo " << msg.size() << " bytes, "
+                     << "data received at " << time.toString();
+    sleep(10);
+	conn->send(msg);
+}
+
+int main(int argc, const char *argv[])
+{
+    EventLoop loop;
+    InetAddress addr("127.0.0.1", 8988);
+    TcpServer server(&loop, addr, "echo");
+    server.setConnectionCallback(&onConnection);
+    server.setMessageCallback(&onMessage);
+    server.setThreadNum(2);
+    server.start();
+    loop.loop();
+    return 0;
 }
